@@ -1,0 +1,40 @@
+KEYCLOAK SERVER INSTALLATION
+
+First make sure you have docker installed and ready to use in your pc. Then make sure you have the key cloak image ready to use. If not, run the following command:
+
+docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:11.0.2
+
+This will start Keycloak exposed on the local port 8080. It will also create an initial admin user with username admin and password admin.
+
+Then head to admin interface to http://localhost:8080, log in with admin credentials (admin, admin) and follow the next steps.
+
+
+Steps:
+
+1. Create you own new realm and enable it.
+
+2. Go to your new realm and select clients on the left menu bar.
+
+3. Create new client and name it ‘auth-server’ and select Client Protocol as openid-connect and press save.
+
+4. Go to your new client-settings page if it doesn’t automatically redirect you there and make sure Enabled is turned on and client protocol is opened-connect.
+
+5. Change access type to confidential and Enable Standard flow, Implicit flow, Direct access grants and service accounts.
+
+6. You can make your own root url, redirect url and base url.
+
+7. On the bottom of the page open ‘Fine Grain OpenID Connect Configuration’ and change access token and id token signature type to HS256. Make sure User Info Signed Response Algorithm is unsigned and request object is not required. Request object signature to hs256.
+
+8. On credentials page change client authenticator to client id and secret. That secret is generated and used to get access token so you need to copy this secret to the code base.
+
+9. On roles page in your client, create new role ‘admin’
+
+10. Go to users on left menu bar and create new user with your own email, username and password. 
+
+11. Go to your new user and select Role Mappings-section. There on ‘Client roles’ select the client you created previously. Then assign the user with admin role to the client.
+
+12. Then everything should be ready to use. Remember to change Userdata_for_keycloak credentials on test-cli.py to your own credentials that you just created (username, password)
+
+13. Remember to check client_id to match your own client id (name of the client, should be auth-server). Then change realm-name to your own realm name and client-secret-key to your own client secret key that we generated previously on part 8. (On authenticationmehtods.py and key cloak parts)
+
+14. Then everything should be set up and you can run code with your own key cloak server.

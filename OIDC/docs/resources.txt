@@ -1,0 +1,75 @@
+
+
+Helpful links to find information considering following topics:
+
+
+Docker tutorial:
+
+    https://www.youtube.com/watch?v=fqMOX6JJhGo
+
+    https://www.youtube.com/watch?v=6aBsjT5HoGY
+
+Containers info suomeksi / Containers info in Finnish:
+
+    https://niklaswallenius.fi/konttiteknologia-mita-hyotya/
+
+Docker info suomeksi / Docker info in finnish:
+
+    https://niklaswallenius.fi/mika-on-docker/
+
+GIT-Tutorial:
+
+    https://www.youtube.com/watch?v=USjZcfj8yxE
+
+OAuth introduce:
+
+    https://www.youtube.com/watch?v=j-bHvqQ378s
+
+    https://www.youtube.com/watch?v=t4-416mg6iU
+
+OAuth2.0 (OAuthlib):
+
+    server: https://oauthlib.readthedocs.io/en/latest/oauth2/server.html
+
+    client: https://oauthlib.readthedocs.io/en/latest/oauth2/clientswebapplicationclient.html
+
+    endpoint: https://oauthlib.readthedocs.io/en/latest/oauth2/endpoints/endpoints.html
+
+
+OAuth and open id connect:
+
+    https://www.youtube.com/watch?v=LyqeHAkxVyk
+
+JWT-Tokens:
+
+    https://www.youtube.com/watch?v=iT8KODThXxY
+
+    https://jwt.io/
+
+SSO:
+
+    https://www.youtube.com/watch?v=kRGPKh3NgHU
+
+IDM / IAM:
+
+    https://www.youtube.com/watch?v=Tcvsefz5DmA
+
+KEYCLOAK-SERVER:
+    
+    Docker-keycloak: https://www.keycloak.org/getting-started/getting-started-docker
+
+    Python-keycloak-library: https://github.com/marcospereirampj/python-keycloak
+
+Importlib (python):
+
+    https://www.youtube.com/watch?v=cbot48lckOs&ab_channel=RealPython
+
+PEP 8 (Style guide for python):
+
+    https://www.python.org/dev/peps/pep-0008/
+
+Requests library for cookies and session handling:
+
+    https://www.youtube.com/watch?v=Km28G1Sl1fY&ab_channel=PyPros
+
+    https://www.youtube.com/watch?v=8qsNauBEVNM&ab_channel=PyPros

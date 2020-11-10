@@ -1,0 +1,34 @@
+{"Users": [
+    {
+        "id": "1",
+        "secret": "g23f4asd",
+        "email":"g23@gmail.com",
+        "authorization_code":"asdtg2345fbhesfswe2354hbw"
+    },
+    {
+        "id": "2",
+        "secret": "hello1234",
+        "email":"hello@gmail.com",
+        "authorization_code":"gdfkg0e95yj348tsdg"
+    },
+    {
+        "id":"3",
+        "secret": "mysecretflower",
+        "email":"myflower@gmail.com",
+        "authorization_code":"kop+r05rkye95tu34g"
+    },
+    {
+        "id":"4",
+        "secret": "nightmare",
+        "email":"nightmare@hotmail.com",
+        "authorization_code":"jll567u56ll"
+    },
+    {
+        "id":"5",
+        "secret": "goodworld",
+        "email":"goodworld@gmail.com",
+        "authorization_code":"asd23fsdgf435y5y5y"
+    }
+]
+
+}

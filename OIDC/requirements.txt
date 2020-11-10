@@ -1,0 +1,13 @@
+python==3.8.2
+aiohttp==3.6.2
+async==0.6.2
+async-timeout==3.0.1
+asyncio==3.4.3
+Authlib==0.15.2
+beautifulsoup4==4.9.3
+PyJWT==1.7.1
+python-jose==3.2.0
+python-keycloak==0.22.0
+requests==2.23.0
+urllib3==1.25.9
+yarl==1.5.1
