@@ -17,7 +17,7 @@ All methods include 2 flows (Authorization code flow and Implict flow) AND 3 dif
 * Keycloak server setup
 	- When you use Keycloak authentication server instead of our own auth-server, you need to create keycloak server. Easiest way to create it is using docker, and full
 	server installation instructions are under Keycloak/setup-folder. Keep in mind that both keycloak server and auth-server are running in same port (8080) by default,
-	so you can't run them simultaniously without changing other ones port. You can read the server installation instructions from [HERE](OIDC/Docs/KEYCLOAK_SERVER_INSTALLATION.txt).
+	so you can't run them simultaniously without changing other ones port. You can read the server installation instructions from [HERE](OIDC/docs/KEYCLOAK_SERVER_INSTALLATION.txt).
 
 	- If you are using KEYCLOAK-server instead of our own auth-server you need to install the server and then create your own user there from the admin console. Then you need to change correct KEYCLOAK log-in -credentials from this [test-cli.py](OIDC/test-cli.py)-file.
 
@@ -121,9 +121,9 @@ This code uses Python own libraries such as requests, etc. It also use 3rd party
 	
 ## Document files:
 
-* [HLD-file](OIDC/Docs/HLD.md)
-* [KEYCLOAK-SERVER-INSTALLATION](OIDC/Docs/KEYCLOAK_SERVER_INSTALLATION.txt)
-* [RESOURCES](OIDC/Docs/resources.txt)
+* [HLD-file](OIDC/docs/HLD.md)
+* [KEYCLOAK-SERVER-INSTALLATION](OIDC/docs/KEYCLOAK_SERVER_INSTALLATION.txt)
+* [RESOURCES](OIDC/docs/resources.txt)
 	- Here is listed some links that I found useful while creating this. There is links and sources considering OIDC and how to create applications around it.
 
 
