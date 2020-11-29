@@ -43,7 +43,8 @@ async def get_arg():
     except IndexError as e:
         # Expects index error which means that argument is empty and
         #  if it is empty, shows list of authentication methods
-        return print('Enter authorization type:\n -native_authcode ("Native Authorization code flow")\n -native_implict ("Native Implict flow")\n -authlib_authcode ("Authlib Authorization code flow")\n -authlib_implict ("Authlib Implict flow")\n -keycloak_authcode ("Keycloak Authentication code flow")\n -keycloak_implict ("Keycloak Implict flow")')
+        return print('Enter authorization type:\n -native_authcode ("Native Authorization code flow")\n -native_implict ("Native Implict flow")\n -authlib_authcode ("Authlib Authorization code flow")'
+        '\n -authlib_implict ("Authlib Implict flow")\n -keycloak_authcode ("Keycloak Authentication code flow")\n -keycloak_implict ("Keycloak Implict flow")')
     
 
 # Runs async functions depending on authentication type and waits them to be ready.
